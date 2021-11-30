@@ -102,7 +102,6 @@ export default defineComponent({
       animation.play();
     },
     blink () {
-      console.log('BLINK!');
       const animation = createAnimation()
       animation.addElement(document.getElementById('score'))
           .duration(500)
